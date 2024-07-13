@@ -56,7 +56,7 @@ export default function NavBar() {
                         }>
                         <a
                             href="/"
-                            onClick={handleMenu}
+                            onClick={() => setHidden(false)}
                             className=" border-b-2 border-transparent hover:border-white transition-all duration-300">
                             Inicio
                         </a>
