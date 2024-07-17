@@ -38,7 +38,7 @@ export default function NavBar() {
                         alt="Dansa Mar Luque Image"
                         src="https://cdn.dansamarluque.com/icon.png"
                         draggable={false}
-                        loading="lazy"
+                        loading="eager"
                         decoding="async"
                     />
                 </a>

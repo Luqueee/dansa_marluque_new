@@ -21,6 +21,7 @@ const features = [
                 draggable="false"
                 loading="lazy"
                 decoding="async"
+                alt="Imagen del casal de verano"
                 src="https://cdn.dansamarluque.com/fotocasal1.jpg"
             />
         ),
@@ -38,6 +39,7 @@ const features = [
                 draggable="false"
                 loading="lazy"
                 decoding="async"
+                alt="aaaaaaaaaaa"
                 src="https://cdn.dansamarluque.com/fotocasal2.jpg"
             />
         ),
@@ -55,6 +57,7 @@ const features = [
                 draggable="false"
                 loading="lazy"
                 decoding="async"
+                alt="aaaaaaaa"
                 src="https://cdn.dansamarluque.com/fotocasal3.jpg"
             />
         ),
@@ -72,6 +75,7 @@ const features = [
                 draggable="false"
                 loading="lazy"
                 decoding="async"
+                alt="aaaaaa"
                 src="https://cdn.dansamarluque.com/fotocasal4.jpg"
             />
         ),
@@ -88,6 +92,7 @@ const features = [
             <img
                 className="absolute right-0 md:lg:top-0 top-8 md:lg:scale-100 scale-150  object-top opacity-50 object-cover group-hover:opacity-30 transition-all duration-300"
                 draggable="false"
+                alt="aaaaaa"
                 loading="lazy"
                 decoding="async"
                 src="https://cdn.dansamarluque.com/fotocasal5.jpg"
