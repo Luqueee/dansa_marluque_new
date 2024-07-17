@@ -9,9 +9,6 @@ import { manifest, seoConfig } from './src/utils/seoConfig.ts';
 export default defineConfig({
     site: seoConfig.baseURL,
 
-    build: {
-        inlineStylesheets: 'always',
-    },
     compressHTML: true,
     prefetch: true,
     devToolbar: {
