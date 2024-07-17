@@ -16,7 +16,7 @@ export default defineConfig({
     devToolbar: {
         enabled: false,
     },
-    adapter: vercel(),
+    adapter: vercel({ webAnalytics: { enabled: true } }),
     output: 'server',
     integrations: [
         react(),
