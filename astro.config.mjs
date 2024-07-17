@@ -7,11 +7,8 @@ import starlight from '@astrojs/starlight';
 import { manifest, seoConfig } from './src/utils/seoConfig';
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://dansamarluque.com',
-    image: {
-        domains: ['cdn.dansamarluque.com', 'dansamarluque.com'],
-    },
-    favicon: 'https://cdn.dansamarluque.com/logo.ico',
+    site: seoConfig.baseURL,
+
     build: {
         inlineStylesheets: 'always',
     },
