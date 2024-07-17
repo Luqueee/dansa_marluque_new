@@ -16,7 +16,7 @@ const VideoBg = () => {
                 className=" opacity-25 blur-[2px] object-cover w-full h-full absolute inset-0 z-0"
                 style={{
                     filter: 'drop-shadow(0 0 10px rgba(255, 255, 255, .2))',
-                    mask: 'linear-gradient(to bottom, black 60%, transparent 100%);',
+                    mask: 'linear-gradient(to bottom, black 60%, transparent 100%)',
                 }}
                 loading="lazy"
                 decoding="async"

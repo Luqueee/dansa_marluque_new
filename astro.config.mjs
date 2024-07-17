@@ -8,12 +8,16 @@ import { manifest, seoConfig } from './src/utils/seoConfig.ts';
 // https://astro.build/config
 export default defineConfig({
     site: seoConfig.baseURL,
-
+    images: {
+        domains: ['cdn.dansamarluque.com', 'dansamarluque.com'],
+    },
     compressHTML: true,
     prefetch: true,
     devToolbar: {
         enabled: false,
     },
+    adapter: vercel(),
+    output: 'server',
     integrations: [
         react(),
         tailwind({
@@ -90,6 +94,4 @@ export default defineConfig({
             }),
         ],
     },
-    adapter: vercel(),
-    output: 'server',
 });
