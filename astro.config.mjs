@@ -4,7 +4,7 @@ import vercel from '@astrojs/vercel/serverless';
 import tailwind from '@astrojs/tailwind';
 import { VitePWA } from 'vite-plugin-pwa';
 import starlight from '@astrojs/starlight';
-
+import { manifest, seoConfig } from './src/utils/seoConfig';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://dansamarluque.com',
