@@ -82,9 +82,6 @@ export default function NavBar() {
                         }`}>
                         <MenuIcon />
                     </button>
-                    {
-                        //<ModeToggle />
-                    }
                 </div>
             </div>
         </div>

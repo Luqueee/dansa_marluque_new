@@ -17,7 +17,7 @@ const features = [
         cta: 'Descubre nuesto casal',
         background: (
             <img
-                className="absolute right-0 bottom-0  object-top opacity-50 object-cover group-hover:opacity-30 transition-all duration-300"
+                className="absolute right-0 bottom-0 scale-150 object-top opacity-50 object-cover group-hover:opacity-30 transition-all duration-300"
                 draggable="false"
                 loading="lazy"
                 decoding="async"
@@ -34,7 +34,7 @@ const features = [
         cta: 'Learn more',
         background: (
             <img
-                className="absolute right-0 bottom-0 object-top opacity-50 object-cover group-hover:opacity-30 transition-all duration-300"
+                className="absolute right-0 bottom-0 scale-150 object-top opacity-50 object-cover group-hover:opacity-30 transition-all duration-300"
                 draggable="false"
                 loading="lazy"
                 decoding="async"

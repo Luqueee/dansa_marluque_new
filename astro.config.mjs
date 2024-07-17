@@ -12,6 +12,14 @@ export default defineConfig({
         domains: ['cdn.dansamarluque.com', 'dansamarluque.com'],
     },
     favicon: 'https://cdn.dansamarluque.com/logo.ico',
+    build: {
+        inlineStylesheets: 'always',
+    },
+    compressHTML: true,
+    prefetch: true,
+    devToolbar: {
+        enabled: false,
+    },
     integrations: [
         react(),
         tailwind({
