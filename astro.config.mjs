@@ -4,7 +4,7 @@ import vercel from '@astrojs/vercel/serverless';
 import tailwind from '@astrojs/tailwind';
 import { VitePWA } from 'vite-plugin-pwa';
 import starlight from '@astrojs/starlight';
-import { manifest, seoConfig } from './src/utils/seoConfig';
+import { manifest, seoConfig } from '@/src/utils/seoConfig';
 // https://astro.build/config
 export default defineConfig({
     site: seoConfig.baseURL,
@@ -55,9 +55,6 @@ export default defineConfig({
     vite: {
         build: {
             cssMinify: 'lightningcss',
-        },
-        ssr: {
-            noExternal: ['path-to-regexp'],
         },
 
         plugins: [
