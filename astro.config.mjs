@@ -56,6 +56,9 @@ export default defineConfig({
         build: {
             cssMinify: 'lightningcss',
         },
+        ssr: {
+            noExternal: ['path-to-regexp'],
+        },
 
         plugins: [
             VitePWA({
